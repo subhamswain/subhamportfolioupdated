@@ -14,15 +14,19 @@ function AboutCard() {
             <br />
             <br/>
             <h3>EXPERIENCE</h3>
-            1. I am currently as a Trainee Frontend developer at
+            <li className="about-activity">
+            <ImPointRight /> I am currently as a Trainee Frontend developer at
             FunctionUp from March 2023 to present.
-            <br />
-            2. Innefu Labs Pvt ltd(Aug 2022 to Dec 2022)
-            <br/>
-            3. Target Integration(Feb 2022 to Aug 2022)
-            <br/>
-            4. IWCN(Aug 2021 to Feb 2022)
-            <br />
+            </li>
+            <li className="about-activity">
+            <ImPointRight /> Innefu Labs Pvt ltd(Aug 2022 to Dec 2022)
+            </li>
+            <li className="about-activity">
+            <ImPointRight /> Target Integration(Feb 2022 to Aug 2022)
+            </li>
+            <li className="about-activity">
+            <ImPointRight />  IWCN(Aug 2021 to Feb 2022)
+            </li>
             <br/>
             Apart from coding, some other activities that I love to do!
           </p>
