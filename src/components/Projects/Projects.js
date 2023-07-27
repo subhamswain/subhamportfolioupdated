@@ -6,7 +6,8 @@ import digitalsignature from "../../Assets/Projects/digitalsignature.png";
 import googledocsclone from "../../Assets/Projects/googledocsclone.png";
 import gymwebsite from "../../Assets/Projects/gymwebsite.png";
 import twitterclone from "../../Assets/Projects/twitterclone.png";
-
+import cryptoapp from "../../Assets/Projects/cryptoapp.png";
+import realstateproject from "../../Assets/Projects/realstateproject.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -63,6 +64,29 @@ function Projects() {
               demoLink="https://subhamtwitterfinal.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cryptoapp}
+              isBlog={false}
+              title="cryptapp"
+              description="Technology->React Js | Redux | CSS | Chakra UI (July 2023) .The Crypto Tracker App built using React.js and Chakra UI will provide users with an intuitive and visually appealing platform to monitor cryptocurrency prices and trends. The app's responsive design and interactive features will enhance the user experience and make it easy for users to keep track of their favorite cryptocurrencies in real-time."
+              ghLink="https://github.com/subhamswain/cryptoappready/tree/cryptoappready"
+              demoLink=""
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={realstateproject}
+              isBlog={false}
+              title="realstateproject"
+              description="Technology->React Js | CSS (July 2023) .Realestate website real estate agency that allows users to browse and search for houses and properties available for sale or rent. The website should provide a user-friendly interface to display property details, images, amenities, and other relevant information. ."
+              ghLink="https://github.com/subhamswain/Realstateproject"
+              demoLink="https://realstateproject-orpin.vercel.app/"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
